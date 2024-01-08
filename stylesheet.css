@@ -3,6 +3,10 @@ nav {
     padding: 10px;  
 }
 
+.logo {
+    margin-right: auto; /*Push the logo to the left*/ 
+}
+
 ul {
     list-style-type: none; /*this removes the bullet points*/
     margin: 0;
@@ -22,4 +26,19 @@ a {
 
 a:hover {
     color: #ff0000;  /*change link color on hover*/
+}
+
+/*This is for the different sections */
+section {
+    padding: 50px 0; /*add some padding above and below each section*/
+}
+
+section h2 {
+    margin-bottom: 20px;/*add margin below heading */
+}
+
+/*placeholder styles for images*/
+section img {
+    max-width: 100%;/*this makes sure that the image stays inside the container */
+    height: auto; /*maintain aspect ratio*/
 }
