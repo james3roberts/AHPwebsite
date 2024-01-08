@@ -1,0 +1,25 @@
+nav {
+    background-color: #f2f2f2; /*this is background color of the nav bar*/
+    padding: 10px;  
+}
+
+ul {
+    list-style-type: none; /*this removes the bullet points*/
+    margin: 0;
+    padding: 0;
+    display: flex; /*display items horizontally*/
+    justify-content: space-around; /*Evenly space items*/
+}
+
+li {
+    margin: 0 10px; /*Add margin between items*/
+}
+
+a {
+    text-decoration: none; /*this removes the underline*/
+    color: #333; /*set the link color*/
+}
+
+a:hover {
+    color: #ff0000;  /*change link color on hover*/
+}
