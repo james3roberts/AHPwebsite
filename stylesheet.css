@@ -1,44 +1,71 @@
+/* Navigation styles */
 nav {
-    background-color: #f2f2f2; /*this is background color of the nav bar*/
-    padding: 10px;  
-}
-
-.logo {
-    margin-right: auto; /*Push the logo to the left*/ 
-}
-
-ul {
-    list-style-type: none; /*this removes the bullet points*/
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /*display items horizontally*/
-    justify-content: space-around; /*Evenly space items*/
-}
-
-li {
-    margin: 0 10px; /*Add margin between items*/
-}
-
-a {
-    text-decoration: none; /*this removes the underline*/
-    color: #333; /*set the link color*/
-}
-
-a:hover {
-    color: #ff0000;  /*change link color on hover*/
-}
-
-/*This is for the different sections */
-section {
-    padding: 50px 0; /*add some padding above and below each section*/
-}
-
-section h2 {
-    margin-bottom: 20px;/*add margin below heading */
-}
-
-/*placeholder styles for images*/
-section img {
-    max-width: 100%;/*this makes sure that the image stays inside the container */
-    height: auto; /*maintain aspect ratio*/
-}
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #ff0000;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Container styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .left-section,
+  .right-section {
+    padding-top: 200px;
+  }
+  
+  .left-section {
+    background-color: #d0d0d0;
+  }
+  
+  .right-section {
+    background-color: #e0e0e0;
+  }
+  
+  /* Layout styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
