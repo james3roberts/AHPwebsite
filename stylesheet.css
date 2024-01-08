@@ -1,7 +1,8 @@
 /* Navigation styles */
 nav {
-    background-color: #f2f2f2;
+    background-color: #000000;
     padding: 10px;
+    
   }
   
   .logo {
@@ -22,11 +23,11 @@ nav {
   
   a {
     text-decoration: none;
-    color: #333;
+    color:#A2AAAD ;/*avs Silver*/
   }
   
   a:hover {
-    color: #ff0000;
+    color: #A2AAAD ;/*avs Silver*/
   }
   
   /* Section styles */
@@ -53,14 +54,18 @@ nav {
   .left-section,
   .right-section {
     padding-top: 200px;
+    color: #000000; /*avs Burgundy*/
   }
   
   .left-section {
-    background-color: #d0d0d0;
+    background-color: #6F263D; /*AVALANCHE Burgundy COLOR*/
+    text-align: left; /*move the text to the left*/
+
   }
   
   .right-section {
-    background-color: #e0e0e0;
+    background-color: #236192;/*AVALANCHE BLUE COLOR*/
+    text-align: right;
   }
   
   /* Layout styles */
