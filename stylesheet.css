@@ -27,7 +27,7 @@ nav {
   }
   
   a:hover {
-    color: #A2AAAD ;/*avs Silver*/
+    color: #236192;/*AVALANCHE BLUE COLOR*/
   }
   
   /* Section styles */
@@ -53,8 +53,8 @@ nav {
   
   .left-section,
   .right-section {
-    padding-top: 200px;
-    color: #000000; /*avs Burgundy*/
+    padding-bottom: 200px;
+    color: #000000; /*avs Black*/
   }
   
   .left-section {
