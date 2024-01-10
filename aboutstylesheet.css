@@ -1,0 +1,33 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #A2AAAD;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #6F263D;
+}
+
+/* Styles specific to the about page */
+.about-section {
+    padding: 20px;
+    background-color: #F2F2F2; /* Example background color */
+}
+
+.about-section p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* First letter styling (optional) */
+.about-section p::first-letter {
+    font-size: 150%;
+    float: left;
+    margin-top: 4px;
+    margin-right: 8px;
+    font-weight: bold;
+}
