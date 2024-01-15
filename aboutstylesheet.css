@@ -1,67 +1,101 @@
-/* General styles */
+/* Navigation styles */
 nav {
-    background-color: #000000;
-    padding: 10px;
-    
-  }
-  
-  .logo {
-    margin-right: auto;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  li {
-    margin: 0 10px;
-  }
-  
-  a {
-    text-decoration: none;
-    color:#A2AAAD ;/*avs Silver*/
-  }
-  
-  a:hover {
-    color: #236192;/*AVALANCHE BLUE COLOR*/
-  }
+  background-color: #000000;
+  padding: 10px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #A2AAAD; /* Silver */
+}
+
+a:hover {
+  color: #236192; /* Colorado Avalanche Blue */
+}
+
+/* General styles */
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #A2AAAD;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #A2AAAD;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
-    color: #6F263D;
+  color: #A2AAAD;
+  text-align: center;
+  margin: auto;
 }
 
 /* Styles specific to the about page */
-.about-section {
-    padding: 20px;
-    background-color: #F2F2F2; /* Example background color */
-    margin-bottom: 20px;
+.history,
+.owner,
+.why {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-.about-section p {
-    text-align: justify;
-    margin-bottom: 20px;
+.history {
+  background-color: #6F263D; /* Colorado Avalanche Burgundy */
 }
 
-/* First letter styling (optional) 
-.about-section p::first-letter {
-    font-size: 150%;
-    float: left;
-    margin-top: 4px;
-    margin-right: 8px;
-    font-weight: bold;
+.owner {
+  background-color: #236192; /* Colorado Avalanche Blue */
 }
 
-/*To make the different sections colored I will need to create classes and also
-it was the last thing I looked at on chatgpt*/
+.why {
+  background-color: #6F263D; /* Colorado Avalanche Burgundy */
+}
+
+.history p,
+.owner p,
+.why p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* Update box class names and colors */
+.blue-box {
+  background-color: #236192; /* Colorado Avalanche Blue */
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.burgundy-box {
+  background-color: #6F263D; /* Colorado Avalanche Burgundy */
+  padding: 10px;
+  border-radius: 5px;
+  flex-basis: 45%;
+}
+
+.content-right {
+  flex-basis: 45%;
+}
+
+.content-left {
+  flex-basis: 45%;
+}
