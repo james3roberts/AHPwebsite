@@ -112,3 +112,28 @@ h2 {
   text-align: center;
   color: #000000; /* Black */
 }
+/* Add this CSS to your stylesheet */
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%; /* Ensure the table takes full width */
+}
+
+.table-cell {
+  padding: 10px;
+  border: 1px solid #ccc;
+  vertical-align: top; /* Align content to the top of the cell */
+}
+
+.vertical-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Added to remove default margin */
+}
+
+.vertical-list li {
+  margin-bottom: 5px;
+}
