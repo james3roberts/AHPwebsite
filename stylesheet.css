@@ -77,3 +77,12 @@ nav {
 h2 {
   color:#A2AAAD ; /*Colorado Avalanche SILVER*/
 }
+
+
+/*Photo section*/
+.general {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
