@@ -2,6 +2,7 @@
 nav {
     background-color: #000000;
     padding: 10px;
+    border: 4px solid #6F263D;
     
   }
   
@@ -85,4 +86,29 @@ h2 {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+.photo-height{
+  height: 250px; /*how tall*/
+  width: 650px;/*how wide*/
+  display: block;/*ensure that image is a block element*/
+  margin-left: auto;/*center imag horizontally*/
+  margin-right:auto ;/*center imag horizontally*/
+  margin-top: auto; /*center imag vertic*/
+  margin-bottom: auto;/*center imag vertic*/
+ 
+}
+
+/* General.html page*/
+.full-width-box {
+  background-color: #6F263D; /*Colorado Avalanche Burgundy*/
+  padding: 125px;
+  border: 4px solid #236192;/*Colorado Avalanche Blue*/
+}
+
+.centered-heading {
+  background-color: #A2AAAD; /* Colorado Avalanche SILVER */
+  border: 4px solid #6F263D; /* Colorado Avalanche Burgundy */
+  padding: 10px 20px;
+  text-align: center;
+  color: #000000; /* Black */
 }
