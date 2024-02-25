@@ -1,108 +1,99 @@
 /* Navigation styles */
 nav {
-    background-color: #000000;
-    padding: 10px;
-    border: 4px solid #6F263D;
-    
-  }
-  
-  .logo {
-    margin-right: auto;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  li {
-    margin: 0 10px;
-  }
-  
-  a {
-    text-decoration: none;
-    color:#A2AAAD ;/*Colorado Avalanche SILVER*/
-  }
-  
-  *:hover {
-    color: #236192;/*AVALANCHE BLUE COLOR*/
-  }
-  
-  /* Section styles */
-  section {
-    padding: 50px 0;
-  }
-  
-  section h2 {
-    margin-bottom: 20px;
-  }
-  
-  section img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Container styles */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .left-section,
-  .right-section {
-    padding-bottom: 100px;
-    color: #000000; /*avs Black*/
-  }
-  
-  .left-section {
-    background-color: #6F263D; /*AVALANCHE Burgundy COLOR*/
-    text-align: left; /*move the text to the left*/
-
-  }
-  
-  .right-section {
-    background-color: #236192;/*AVALANCHE BLUE COLOR*/
-    text-align: right;
-  }
-  
-  /* Layout styles */
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-h2 {
-  color:#A2AAAD ; /*Colorado Avalanche SILVER*/
+  background-color: #000000;
+  padding: 10px;
+  border: 4px solid #6F263D;
 }
 
+.logo {
+  margin-right: auto;
+}
 
-/*Photo section*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #A2AAAD; /* Colorado Avalanche SILVER */
+}
+
+a:hover {
+  color: #236192; /* AVALANCHE BLUE COLOR */
+}
+
+/* Section styles */
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #A2AAAD; /* Colorado Avalanche SILVER */
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left-section,
+.right-section {
+  padding-bottom: 100px;
+  color: #000000; /* Avalanche Black */
+}
+
+.left-section {
+  background-color: #6F263D; /* Avalanche Burgundy COLOR */
+  text-align: left; /* Move the text to the left */
+}
+
+.right-section {
+  background-color: #236192; /* Avalanche Blue COLOR */
+  text-align: right;
+}
+
+/* Layout styles */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Photo section */
 .general {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
-.photo-height{
-  height: 250px; /*how tall*/
-  width: 650px;/*how wide*/
-  display: block;/*ensure that image is a block element*/
-  margin-left: auto;/*center imag horizontally*/
-  margin-right:auto ;/*center imag horizontally*/
-  margin-top: auto; /*center imag vertic*/
-  margin-bottom: auto;/*center imag vertic*/
- 
+
+.photo-height {
+  height: 250px; /* How tall */
+  width: 650px; /* How wide */
+  display: block; /* Ensure that image is a block element */
+  margin: auto; /* Center image horizontally and vertically */
 }
 
-/* General.html page*/
+/* General.html page */
 .full-width-box {
-  background-color: #6F263D; /*Colorado Avalanche Burgundy*/
+  background-color: #6F263D; /* Avalanche Burgundy */
   padding: 125px;
-  border: 4px solid #236192;/*Colorado Avalanche Blue*/
+  border: 4px solid #236192; /* Avalanche Blue */
 }
 
 .centered-heading {
@@ -113,8 +104,7 @@ h2 {
   color: #000000; /* Black */
 }
 
-
-/* bullet points */
+/* Bullet points */
 .flex-container {
   display: flex;
 }
@@ -128,15 +118,5 @@ h2 {
 
 .flex-column:last-child {
   margin-right: 0; /* Remove margin from last column */
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-ul li {
-  margin-bottom: 5px;
 }
 
