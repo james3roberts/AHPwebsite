@@ -120,3 +120,11 @@ body {
   margin-right: 0; /* Remove margin from last column */
 }
 
+.niceList{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30;
+  margin: 30;
+  width: 33.33%;
+  box-sizing: border-box;
+}
